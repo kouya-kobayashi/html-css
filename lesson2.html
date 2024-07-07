@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson2</title>
+    <style>
+        .rectangle1 {
+            width: 200px;
+            height: 100px;
+            background-color: red;
+            margin-left: 300px;
+            margin-top: 0px;
+        }
+
+        .rectangle2 {
+            width: 200px;
+            height: 100px;
+            background-color: blue;
+            margin-top: 100px;
+            margin-left: 0px;
+        }
+
+        .square {
+            position: relative;
+            width: 600px;
+            height: 600px;
+            background: white;
+            padding: 0px;
+            border: 1px solid black;
+        }
+
+        .p-center {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="square">
+        <p class="p-center">
+        <div class="rectangle1"></div>
+        <div class="rectangle2"></div>
+
+        </p>
+    </div>
+</body>
+
+</html>
